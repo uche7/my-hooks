@@ -3,6 +3,7 @@
 // import Image from "next/image";
 // import Est6 from "@/components/est6";
 import React, { useState, useEffect } from "react";
+import { UseState } from "@/components/useState";
 // import { WeatherDashboard } from "@/components/RWD";
 
 export default function Home() {
@@ -56,6 +57,7 @@ export default function Home() {
         {isLoading && <p>Loading...</p>}
         {isError && <p>Error: {isError}</p>}
       </div>
+      <UseState />
     </div>
   );
 }
