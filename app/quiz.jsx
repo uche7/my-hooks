@@ -49,6 +49,7 @@ const QuizOption = ({ option, index, answer, setAnswer }) => {
   );
 };
 
+/** Quiz App Component */
 export function QuizApp() {
   // do not modify the questions or answers below
   const questions = useMemo(
